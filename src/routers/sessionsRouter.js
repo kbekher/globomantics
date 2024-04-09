@@ -2,8 +2,6 @@ const express = require("express");
 const debug = require("debug")("app:sessionRouter");
 const { MongoClient, ObjectID } = require("mongodb");
 
-// const sessions = require("../data/sessions.json");
-
 const sessionsRouter = express.Router();
 
 sessionsRouter.route("/").get((req, res) => {
