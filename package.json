@@ -28,7 +28,9 @@
     "restartable": "rs",
     "delay": 2500,
     "env": {
-      "PORT": 4000
+      "PORT": 4000,
+      "MONGODB_URI": "mongodb+srv://bekherkr:dFqjsSKxcPqAUrqO@globomantics.wle81qe.mongodb.net/?retryWrites=true&w=majority&appName=Globomantics",
+      "SESSION_SECRET": "globomantics"
     }
   }
 }
